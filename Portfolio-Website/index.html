@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>
+            ROMAISA
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <link rel = "stylesheet" href = "./CSS/styles.css">
+    <body>
+        <nav>
+            <h1> ROMAISA </h1>
+            <ul class = "navigation">
+                <li><a href = "#about" class = "nav-link" > About</a></li>
+                <li><a href = "#skills" class = "nav-link">Skills</a></li>
+                <li><a href = "#projects" class = "nav-link">Projects</a></li>
+                <li><a href = "#contact" class = "nav-link">Contact</a></li>
+            </ul>
+            <button class = "menu" id = "menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>    
+        </nav>
+    
+        <div class="container">
+           <div class = "BG"></div>
+            <div class="overlay">
+                <h2 >HELLO I'M</h2>
+                <h1>ROMAISA</h1>
+                <a>COMPUTER ENGINEER</a>
+              </div>
+            <div class = "portfolio-box">
+                <span class = "portfolio-text">PORTFOLIO</span>
+            </div>
+            <div class = "button">
+                <a href = "cv.pdf" download style = "color:white; font-size:10px;" >
+                    DOWNLOAD CV
+                </a>
+                
+            </div>
+
+            
+                <img src="Images/SmallCircles.png" alt="Centered Image" class = "circle-element">
+            <div class = "vertical-element">
+                <img src="Images/VerticalLines.png" alt="Vertical Lines">
+            </div>
+            <!-- <div class = "Circle">
+                <img src="Images/Circle.png" alt="Profile Image">
+            </div> -->
+          </div>
+          
+          <!-- 2nd Page -->
+          <section class = "aboutme" id = "about" >
+            <div class = "vertical-element02">
+                <img src="Images/VerticalLines.png" alt="Vertical Lines">
+            </div>
+
+            <img src="Images/SmallCircles.png" alt="Centered Image"  class = "circle-element02">
+            <img src="Images/icon1.png" alt="Icon" class = "icon">
+            <div class = "Gradient-BG"></div>
+            <div class = "Text">
+                <h1>ABOUT ME</h1>
+                <h4>INTRODUCTION</h4>
+                <p class = "main-text">
+                    Hello, I'm Romaisa, a passionate third-year student pursuing a Bachelor's degree in Computer Engineering. With a keen interest in web development, I am dedicated to honing my skills and making a positive impact in this field. Throughout my academic journey, I have gained a solid foundation in computer engineering concepts and programming languages. My goal is to leverage my knowledge and expertise to create innovative and user-friendly web experiences. I am excited to contribute to the ever-evolving world of web development and eager to collaborate on projects that push boundaries and deliver exceptional results.
+                </p>
+                <h4  id ="h4">EDUCATION</h4>
+                <ul id="edu">
+                    <li> GIKI</li>
+                    <li>2021-2025</li>
+                    <li>Bachelors of Computer Engineering</li>
+                </ul>
+                
+            </div>
+          </section>
+
+          <section class="skills" id = "skills">
+            <img src="Images/VerticalLines.png" alt="Vertical Lines" class = vertical-element style ="position: absolute; top:190%;">
+            <img src="Images/icon02.png" alt="Icon" class = "icon2">
+            <div class="skill">
+            <ul>
+                <h1>TECHNICAL SKILLS</h1>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Backend</li>
+                <h1>DESIGN SKILLS</h1>
+                <li>FrontEnd</li>
+                <li>Figma</li>
+                <li>Wordpress</li>
+            </ul>
+        </div>
+          </section>
+
+          <section class = "Projects" id = "projects">
+            <img src="Images/icon03.png" alt="Icon" class = "icon3">
+            <div class = "Project-BG" ></div>
+          </section>
+        
+          <section class = "contact" id = "contact">
+            <h1>CONTACT ME</h1>
+
+            <div class = contact-form-container >
+                <div class = "contact-form">
+                    <form action = "https://formspree.io/f/mayzgkrw" method = "POST">
+                        <div class="form-control">
+                            <label for="name">Name</label>
+                            <input
+                              type="text"
+                              id="name"
+                              name="sender-name"
+                              placeholder="Enter Your Name"
+                              class="input-field"
+                              required
+                            />
+                          </div>
+                          <div class="form-control">
+                            <label for="email">Email</label>
+                            <input
+                              type="email"
+                              id="email"
+                              name="sender-email"
+                              placeholder="Enter Your Email"
+                              class="input-field"
+                              required
+                            />
+                          </div>
+                          <div class="form-control">
+                            <label for="message">Message</label>
+                            <textarea
+                              id="message"
+                              cols="60"
+                              rows="10"
+                              placeholder="Enter Your Message"
+                              name="message"
+                              class="input-field"
+                              required
+                            ></textarea>
+                          </div>
+                          <input
+                            type="submit"
+                            value="Submit"
+                            id="submit-btn"
+                            class="submit-btn"
+                          />
+                        </form>
+
+                    
+                </div>
+
+            </div>
+
+            <footer>
+                <p class="copy">&copy; Copyright 2023</p>
+                <p class="copy">
+                  Built by
+                  <a href="https://twitter.com/koladechris" target="_blank"
+                    >ROMAISA</a
+                  >
+                </p>
+          </footer>
+
+
+          </section>
+    </body>
+</html>
